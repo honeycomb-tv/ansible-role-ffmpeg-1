@@ -24,6 +24,12 @@ ffmpeg_executable_path: "/usr/bin/ffmpeg"
 
 # The final path of ffprobe executable
 ffprobe_executable_path: "/usr/bin/ffprobe"
+
+# Whether to uninstall ffmpeg and ffprobe
+uninstall_ffmpeg: 'false'
+
+# Whether to reinstall ffmpeg and ffprobe when they exist
+reinstall_ffmpeg: 'false'
 ```
 
 Dependencies

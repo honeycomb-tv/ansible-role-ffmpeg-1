@@ -1,0 +1,7 @@
+- name: Uninstall old ffmpeg and ffprobe
+  file:
+    path: "{{ item }}"
+    state: absent
+  with_items:
+    - "{{ ffmpeg_executable_path }}"
+    - "{{ ffprobe_executable_path }}"
